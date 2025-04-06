@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JFV Motomecánica</title>
+    <!--archivos que le dan estilo a la pagina -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="icon" href="./img/taller.jpg" type="image/taller.jpg">
+</head>
+<body>
+    <!-- encabezado con titulo y menu-->
+    <header>
+        <h1 class="animate__animated animate__fadeIn">JFV Motomecánica</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio" class="animate__animated animate__fadeIn animate__delay-1s">Inicio</a></li>
+                <li><a href="./pages/nosotros.html" class="animate__animated animate__fadeIn animate__delay-2s">Nosotros</a></li>
+                <li><a href="./pages/servicios.html" class="animate__animated animate__fadeIn animate__delay-3s">Servicios</a></li>
+                <li><a href="./pages/contacto.html" class="animate__animated animate__fadeIn animate__delay-4s">Contacto</a></li>
+                <li><a href="./pages/galeria.html" class="animate__animated animate__fadeIn animate__delay-5s">Galería</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--seccion principal que muestra todos los servicios-->
+    <main>
+        <section id="inicio" class="slide-up">
+            <h2>Bienvenido a JFV Motomecánica</h2>
+            <p>En JFV Motomecánica, somos más que un taller de motos; somos tu compañero de confianza en el mundo de las dos ruedas. Nuestra pasión por las motocicletas y nuestro compromiso con la excelencia nos impulsan a ofrecerte un servicio que va más allá de lo convencional. Aquí, cada moto es tratada con el cuidado y la dedicación que merece, porque entendemos que no es solo un vehículo, sino una parte fundamental de tu estilo de vida.</p>
+            <p>Tu moto, nuestra pasión. 🏍️✨.</p>
+            <img src="./img/taller.jpg" alt="Taller de motocicletas JFV" class="fade-in" loading="lazy">
+        </section>
+
+        <!--Cuadrícula con fotos y descripciones de cada servicio -->
+        <div class="grid-container">
+            <!-- Cada servicio tiene su foto, descripción y botón-->
+            <!--seccion de nosotros -->
+            <section id="nosotros" class="slide-up delay-1">
+                <h2>Sobre Nosotros</h2>
+                <p>Somos un taller dedicado a la reparación y mantenimiento de motos, con experiencia y profesionalismo.</p>
+                <a href="./pages/nosotros.html" class="btn pulse">Conocer más</a>
+            </section>
+
+            <!-- Sección de Servicios -->
+            <section id="servicios" class="slide-up delay-2">
+                <h2>Nuestros Servicios</h2>
+                <ul>
+                    <li>Mantenimiento Preventivo</li>
+                    <li>Reparación de Motores</li>
+                    <li>Reparación de Suspensiones</li>
+                    <li>Reparación de Sistemas de Carga y Arranque</li>
+                    <li>Reparación de Sistemas de Iluminación y Señalización</li>
+                </ul>
+                <a href="./pages/servicios.html" class="btn pulse">Ver todos</a>
+            </section>
+
+            <!-- Sección de Contacto -->
+            <section id="contacto" class="slide-up delay-3">
+                <h2>Contacto</h2>
+                <p>Envíanos un mensaje a <a href="mailto:juanignacioacosta23@gmail.com">juanignacioacosta23@gmail.com</a></p>
+                <a href="./pages/contacto.html" class="btn pulse">Contactar</a>
+            </section>
+
+            <!-- Sección de Galería -->
+            <section id="galeria" class="slide-up delay-4">
+                <h2>Galería</h2>
+                <p>Visita nuestra galería para ver algunos de nuestros trabajos destacados en diferentes tipos de motocicletas.</p>
+                <a href="./pages/galeria.html" class="btn pulse">Ver galería</a>
+            </section>
+        </div>
+    </main>
+
+    <!--  Parte final de la página -->
+    <footer>
+        <p>&copy; 2025 JFV Motomecánica. Todos los derechos reservados.</p>
+        <p>Síguenos en nuestras redes sociales</p>
+        <div class="social-icons">
+            <a href="#" aria-label="Facebook"><i class="fa fa-facebook"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fa fa-instagram"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fa fa-twitter"></i></a>
+        </div>
+    </footer>
+
+    <!-- Font Awesome para íconos -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+    <!-- java scrip -->
+    <script src="./js/main.js"></script>
+</body>
+</html>
